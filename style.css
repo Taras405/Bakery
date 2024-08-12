@@ -3,3 +3,140 @@
     margin: o;
     padding: 0;
 }
+
+body {
+    background-image: url(img/background1.png);
+    background-repeat: no-repeat;
+}
+
+/* body::after {
+     content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 770px; 
+    background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.8));
+    pointer-events: none; 
+} */
+
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header  */
+
+.header-nav {
+    margin-left: 165px;
+    margin-top: 56px;
+    margin-bottom: 71px;
+}
+
+.header-ul {
+    display: flex;
+    gap: 15px;
+}
+
+.header-ul li a {
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+    font-weight: 200;
+    font-size: 24px;
+}
+
+/* section 1  */
+
+.section-1 {
+    margin-left: 165px;
+    margin-bottom: 22px;
+}
+
+.section-1 h1 {
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+    font-weight: 200;
+    font-size: 70px;
+}
+
+.section-1 p {
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 21px;
+}
+
+.button-s1 {
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 24px;
+    padding: 14px 34px 7px 34px;
+    background-color: #B47B48;
+    border: none;
+    border-radius: 17px;
+}
+
+.card-s1-ul {
+    display: flex;
+    gap: 104px;
+}
+
+.card-s1-ul li {
+    background-color: #272727;
+    display: flex;
+    align-items: center;
+    width: 310px;
+    margin-top: 125px;
+}
+
+.card-img-1 {
+    width: 162px;
+    height: 225px;
+}
+
+.card-img-2 {
+    width: 215px;
+    height: 225px;
+}
+
+.card-img-3 {
+    width: 235px;
+    height: 228px;
+}
+
+.card-s1-ul p {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}
+
+.p-price {
+    font-size: 24;
+    font-weight: 200;
+    /* margin-left: 26px;
+    margin-top: 51px; */
+}
+
+.p-name {
+    font-size: 16;
+    font-weight: 500;
+    /* margin-left: 8px; */
+}
+
+.card-s1-ul button {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-weight: 900;
+    font-size: 16;
+    color: #FFFFFF;
+    background-color: #C85312;
+    border: none;
+    margin-left: auto;
+    padding: 8px 22px 5px 22px;
+    margin: 0 35px 32px 44px;
+}
