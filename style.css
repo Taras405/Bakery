@@ -45,8 +45,8 @@ a {
     background-image: url(img/background1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 1552px;
     width: 100%;
+    box-shadow: inset 300px 0px 100px 0px rgba(0, 0, 0, 0.5);
 }
 
 .section-1 h1 {
@@ -169,4 +169,82 @@ a {
     box-shadow: inset 100px 0px 100px 0px rgba(0, 0, 0, 0.5);
     left: 10px;
 }
+
+
+/* section-2  */
+
+.section-2 {
+    /* display: flex; */
+}
+
+.section-2 h2 {
+    color: #FFFFFF;
+    font-size: 64;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.card-s2-ul {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 188px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 873px;
+}
+
+.card-s2-ul li {
+    border: 1px solid #FFFFFF;
+    width: 328px;
+    height: 229px;
+}
+
+.card-s2-ul li button {
+  background-color: #B47B48;
+  border: none;
+  border-radius: 17px;
+  padding: 3px 43px 7px 43px;
+  font-size: 25.92;
+  font-weight: 900;
+  color: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.card-s2-1 {
+    margin-bottom: 57px;
+}
+
+.card-img-s2-1 {
+    /* width: 294px;
+    height: 215.49px; */
+}
+
+.card-s2-2 h2 {
+    
+}
+.bakery {
+    background-image: url(img/bekary1.png);
+}
+
+.card-s2-3 {
+    
+}
+
+.card-img-s2-2 {
+    width: 261.57px;
+    height: 260px;
+}
+
+.card-s2-4 {
+    
+}
+
+/* .card-img-s2-3 {
+    width: 244px;
+    height: 253px;
+} */
 
