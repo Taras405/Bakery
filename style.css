@@ -45,7 +45,7 @@ a {
     background-image: url(img/background1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    /* max-width: 1552px; */
+    max-width: 1552px;
     width: 100%;
 }
 
