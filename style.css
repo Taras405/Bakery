@@ -5,21 +5,8 @@
 }
 
 body {
-    background-image: url(img/background1.png);
-    background-repeat: no-repeat;
+    background-color: #202023;
 }
-
-/* body::after {
-     content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    width: 770px; 
-    background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.8));
-    pointer-events: none; 
-} */
-
 
 li {
     text-decoration: none;
@@ -33,9 +20,8 @@ a {
 /* header  */
 
 .header-nav {
-    margin-left: 165px;
-    margin-top: 56px;
     margin-bottom: 71px;
+    padding-top: 56px;
 }
 
 .header-ul {
@@ -53,8 +39,12 @@ a {
 /* section 1  */
 
 .section-1 {
-    margin-left: 165px;
-    margin-bottom: 22px;
+    padding-left: 165px;
+    padding-bottom: 22px;
+    background-image: url(img/background1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1552px;
 }
 
 .section-1 h1 {
@@ -91,23 +81,32 @@ a {
     background-color: #272727;
     display: flex;
     align-items: center;
-    width: 310px;
     margin-top: 125px;
+    box-shadow: inset 100px 0px 100px 0px rgba(0, 0, 0, 0.5);
+    left: 10px;
+    transition: background-color ease-in;
+    transition-duration: 0.6s;
 }
 
 .card-img-1 {
-    width: 162px;
+    width: 150px;
     height: 225px;
+    margin-left: 4px;
 }
 
 .card-img-2 {
-    width: 215px;
+    width: 213px;
     height: 225px;
 }
 
 .card-img-3 {
-    width: 235px;
-    height: 228px;
+    width: 193px;
+    height: 193px;
+    margin-left: 6px;
+}
+
+.card-s1-3 {
+    margin-right: 115px;
 }
 
 .card-s1-ul p {
@@ -118,14 +117,11 @@ a {
 .p-price {
     font-size: 24;
     font-weight: 200;
-    /* margin-left: 26px;
-    margin-top: 51px; */
 }
 
 .p-name {
     font-size: 16;
     font-weight: 500;
-    /* margin-left: 8px; */
 }
 
 .card-s1-ul button {
@@ -141,8 +137,13 @@ a {
     margin: 0 35px 32px 44px;
 }
 
+.card-box {
+    margin-right: 12px;
+}
+
 .exclamation-mark {
-    position: absolute;
+    margin-top: 120px;
+    margin-right: -20px;
     bottom: 10px;
     left: 10px;
     font-size: 24px;
@@ -151,5 +152,17 @@ a {
     color: #FFFFFF;
     border-radius: 50%;
     padding: 5px 10px;
-    line-height: 0.9;
+    line-height: 0.8;
 }
+
+/* hover  */
+
+.card-s1-ul li:hover {
+    background-color: #EBAD51;
+    display: flex;
+    align-items: center;
+    margin-top: 125px;
+    box-shadow: inset 100px 0px 100px 0px rgba(0, 0, 0, 0.5);
+    left: 10px;
+}
+
