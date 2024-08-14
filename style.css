@@ -42,7 +42,7 @@ a {
 .section-1 {
     padding-left: 165px;
     padding-bottom: 22px;
-    background-image: url(img/background1.png);
+    background-image: url(img/background3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -226,6 +226,7 @@ a {
 .card-s2-2 h2 {
     
 }
+
 .bakery {
     background-image: url(img/bekary1.png);
 }
