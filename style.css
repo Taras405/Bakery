@@ -1,13 +1,16 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    /* <-- тут було о а не 0  */
     padding: 0;
 }
 
 body {
     background-color: #202023;
     font-family: "Inter", sans-serif;
+}
+
+li {
+    list-style: none;
 }
 
 a {
@@ -279,6 +282,8 @@ a {
     line-height: 75.39px;
     color: #FFFFFF;
     text-align: center;
+    margin-bottom: -50px;
+    margin-left: 66.11px;
 }
 
 .card-s3-ul {
@@ -287,7 +292,7 @@ a {
 }
 
 .card-s3-ol {
-    background-color: #F2F2F24D;
+    background-color: #575757;
     color: #FFFFFF;
     font-weight: 500;
     font-size: 24px;
@@ -417,10 +422,6 @@ a {
 
 }
 
-.box-s5-3 {
-
-}
-
 .box-s5-3 h3 {
     font-family: "Inter", sans-serif;
     font-weight: 400;
@@ -447,13 +448,9 @@ a {
 
 .section-footer {
     display: flex;
-} 
+}
 
 /* box-1  */
-
-.box-1-sf {
-
-}
 
 .box-1-sf h4 {
     font-family: "Inter", sans-serif;
@@ -478,10 +475,6 @@ a {
 
 /* box-2  */
 
-.box-2-sf {
-
-}
-
 .box-2-sf p {
     font-family: "Inter", sans-serif;
     font-weight: 300;
@@ -490,6 +483,7 @@ a {
     color: rgba(255, 255, 255, 1);
     text-align: center;
     margin-bottom: 41px;
+    margin-top: 40px;
 }
 
 .box-2-sf ul {
@@ -522,6 +516,7 @@ a {
     line-height: 29.05px;
     color: rgba(255, 255, 255, 1);
     margin-bottom: 41px;
+    margin-top: 40px;
 }
 
 .box-3-sf ul li {
@@ -550,6 +545,7 @@ a {
     line-height: 29.05px;
     color: rgba(255, 255, 255, 1);
     margin-bottom: 41px;
+    margin-top: 40px;
 }
 
 .box-4-sf ul li {
