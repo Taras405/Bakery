@@ -118,12 +118,12 @@ a {
 }
 
 .p-price {
-    font-size: 24;
+    font-size: 24px;
     font-weight: 200;
 }
 
 .p-name {
-    font-size: 16;
+    font-size: 16px;
     font-weight: 500;
 }
 
@@ -131,7 +131,7 @@ a {
     font-family: "Inter", sans-serif;
     text-align: center;
     font-weight: 900;
-    font-size: 16;
+    font-size: 16px;
     color: #FFFFFF;
     background-color: #C85312;
     border: none;
@@ -215,7 +215,7 @@ a {
     border: none;
     border-radius: 17px;
     padding: 3px 43px 7px 43px;
-    font-size: 25.92;
+    font-size: 25.92px;
     font-weight: 900;
     color: #FFFFFF;
     margin-left: auto;
@@ -291,6 +291,8 @@ a {
     justify-content: center;
 }
 
+z
+
 .card-s3-ol {
     background-color: #575757;
     color: #FFFFFF;
@@ -300,7 +302,6 @@ a {
     padding: 13px 26px;
     padding-bottom: 54px;
     box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
-
 }
 
 .card-s3-ol-1 {
@@ -332,7 +333,7 @@ a {
     height: 204px;
     margin-top: -204px;
     border-radius: 112.5px;
-    background-image: linear-gradient(to left 81.4deg, #000000 -110.34%, #202023 -110.33%, rgba(0, 0, 0, 0) 80.32%);
+    background-image: linear-gradient(to left 81.4deg, #000000 -110.34%, #202023 -110.33%, rgba(0, 0, 0, 0) 80.32%,);
 }
 
 /* section-4  */
@@ -460,7 +461,7 @@ a {
     color: rgba(255, 255, 255, 1);
     margin-top: 62px;
     margin-left: 160px;
-    margin-right: 77.32;
+    margin-right: 77.32px;
 }
 
 .box-1-sf p {
