@@ -14,10 +14,6 @@ body {
     margin: 0;
 }
 
-li {
-    list-style: none;
-}
-
 a {
     text-decoration: none;
 }
@@ -30,6 +26,8 @@ a {
 .header-ul {
     display: flex;
     gap: 15px;
+    list-style: none;
+    justify-content: center;
 }
 
 .header-ul li a {
@@ -47,6 +45,14 @@ a {
     background-size: cover;
     width: 100%;
     box-shadow: inset 300px 0px 100px 0px rgba(0, 0, 0, 0.5);
+    
+}
+
+.div-s1 {
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .section-1 h1 {
@@ -201,6 +207,7 @@ a {
     text-align: center;
     width: 873px;
     justify-content: center;
+    list-style: none;
 }
 
 .card-s2-ul li {
@@ -228,13 +235,13 @@ a {
 
 .card-img-s2-1 {
     margin-top: 10px;
-    margin-bottom: -16px;
+    margin-bottom: -25px;
 }
 
 .card-s2-2 img {
     margin-left: -10px;
     margin-top: -50px;
-    margin-bottom: -15px;
+    margin-bottom: -20px;
 }
 
 .card-img-s2-3 {
@@ -253,7 +260,7 @@ a {
 }
 
 .card-img-s2-4 {
-    margin-top: -15px;
+    margin-top: -25px;
     margin-bottom: -35px;
 }
 
@@ -278,6 +285,7 @@ a {
 .card-s3-ul {
     display: flex;
     justify-content: center;
+    list-style: none;
 }
 
 .card-s3-ol {
@@ -349,6 +357,7 @@ a {
     justify-content: center;
     margin-top: 132px;
     padding-bottom: 52px;
+    list-style: none;
 }
 
 .card-s4-ul li p {
