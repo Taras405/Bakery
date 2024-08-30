@@ -27,7 +27,6 @@ a {
     display: flex;
     gap: 15px;
     list-style: none;
-    justify-content: center;
 }
 
 .header-ul li a {
@@ -43,16 +42,14 @@ a {
     background-image: url(img/background1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
     box-shadow: inset 300px 0px 100px 0px rgba(0, 0, 0, 0.5);
-    
+    margin: 0 auto;
 }
 
 .div-s1 {
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+    display: block;
+    margin: 0 auto;
+    width: 1420px;
 }
 
 .section-1 h1 {
